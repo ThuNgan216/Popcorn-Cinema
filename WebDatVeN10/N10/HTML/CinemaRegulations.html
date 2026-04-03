@@ -15,10 +15,10 @@
 <body>
     <div id="container">
         <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary pb-0">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary pb-0 sticky-top">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="../HTML/Home.html"><img src="../IMG/logo-removebg-preview.png"
-                            id="logo" alt=""></a>
+                    <a class="navbar-brand" href="#logo"><img src="../IMG/logo-removebg-preview.png" id="logo"
+                            alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -31,14 +31,19 @@
                         <option value="3">Đà Nẵng</option>
                     </select>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active text-light ms-5" aria-current="page"
-                                href="../HTML/Home.html">Trang chủ</a>
-                            <a class="nav-link text-light ms-5" href="#">Phim</a>
-                            <a class="nav-link text-light ms-5" href="#">Rạp</a>
-                            <a class="nav-link disabled text-light ms-5" aria-disabled="true" id="log">&#128100 Đăng
-                                nhập/Đăng
-                                ký</a>
+                        <div class="navbar-nav me-auto">
+
+                            <a class="nav-link text-light ms-5" aria-current="page" href="../HTML/Home.html">Trang
+                                chủ</a>
+                            <a class="nav-link text-light ms-5" href="../HTML/LichChieu.html">Phim</a>
+                            <a class="nav-link text-light ms-5" href="../HTML/Rap.html">Rạp</a>
+                            <a class="nav-link text-light ms-5" href="../HTML/Offers.html">Khuyến
+                                mãi</a>
+
+                        </div>
+                        <div class="navbar-nav mt-2 mt-lg-0">
+                            <a class="nav-link text-light" aria-disabled="true" id="log"
+                                href="../HTML/Login.html">&#128100 Đăng nhập / Đăng ký</a>
                         </div>
                     </div>
                 </div>
