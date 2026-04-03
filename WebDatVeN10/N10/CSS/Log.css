@@ -1,0 +1,124 @@
+body {
+    width: 100%;
+    height: auto;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.login-container {
+    background: #fff;
+    width: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    margin-left: 500px;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tabs a {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.tabs a.active {
+    border-bottom: 3px solid #007bff;
+    color: #007bff;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 4px;
+    background: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn.facebook {
+    background: #3b5998;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.forgot {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.forgot a {
+    font-size: 13px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.policy {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+input[type="checkbox"] {
+    width: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+td {
+    width: 250px;
+    height: 10px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+}

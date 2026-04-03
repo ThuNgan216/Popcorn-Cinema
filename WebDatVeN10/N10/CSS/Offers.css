@@ -1,0 +1,219 @@
+body {
+    /* font-family: Arial, sans-serif; */
+    background-color: #f8f9fa;
+    /* Thích nền tối thì tự đổi chỗ này nhé */
+}
+
+/* 
+#logo {
+    height: 50px;
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff9800 !important;
+}
+
+.btn-xemthem {
+    background-color: #0056b3;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-xemthem:hover {
+    background-color: #004494;
+    color: white;
+} */
+
+/* .promo-section {
+    background-color: white;
+    Nếu muốn tiệp màu đen thì đổi thành transparent
+    padding: 40px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    max-width: 1200px;
+}
+
+.promo-title {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #f9f8f1;
+    margin-bottom: 0;
+} */
+
+/* --- ĐÂY NÀY, LÃO PHU ĐÃ ĐỘ LẠI CÁI CARD CHO HUYNH --- */
+/* .promo-card {
+    border: none;
+    cursor: pointer;
+    background-color: #1a2236;
+    Đổ nền xanh đen (Dark Navy) cho Card
+    transition: transform 0.2s ease-in-out;
+}
+
+.promo-card:hover {
+    transform: scale(1.02);
+}
+
+.promo-card img {
+    border-radius: 360px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.promo-card .card-body {
+    padding: 15px 10px;
+    text-align: center;
+    Căn giữa chữ nhìn cho xịn
+}
+
+.promo-card .card-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+    CHỮ MÀU TRẮNG THEO YÊU CẦU
+    line-height: 1.4;
+} */
+
+/* ---------------------------------------------------- */
+
+/* .arrow-btn {
+    background-color: #e9ecef;
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #6c757d;
+}
+
+.footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 40px 0 0;
+    margin-top: 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-box {
+    width: 22%;
+    margin-bottom: 20px;
+}
+
+.footer-box h4 {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.footer-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-box ul li {
+    margin-bottom: 10px;
+}
+
+.footer-box a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-box a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    background-color: #111;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+#logo_ft {
+    height: 60px;
+}
+
+#mail {
+    color: #ff9800;
+} */
+
+.promo-title {
+    /* text-transform: uppercase; */
+    font-weight: 900;
+    color: #fcea64;
+    margin-bottom: 0;
+    margin-left: 30px;
+}
+
+.btn-xemthem {
+    background-color: #0056b3;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-xemthem:hover {
+    background-color: #004494;
+    color: white;
+}
+
+
+#container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #0F172A;
+    height: auto;
+}
+
+.promo-card {
+    border: none;
+    cursor: pointer;
+    background-color: #1a2236;
+    /* Đổ nền xanh đen (Dark Navy) cho Card  */
+    transition: transform 0.2s ease-in-out;
+}
+
+.promo-card:hover {
+    transform: scale(1.02);
+}
+
+.promo-card img {
+    border-radius: 360px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.promo-card .card-body {
+    padding: 15px 10px;
+    text-align: center;
+    /* Căn giữa chữ nhìn cho xịn */
+}
+
+.promo-card .card-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+    /* CHỮ MÀU TRẮNG THEO YÊU CẦU  */
+    line-height: 1.4;
+}

@@ -1,0 +1,53 @@
+.split-container {
+    display: flex;
+    min-height: 600px;
+}
+
+.left {
+    width: 300px;
+    background: rgba(4, 32, 75, 0.25);
+    padding: 20px 0;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-link {
+    display: block;
+    padding: 12px 15px;
+    text-decoration: none;
+    color: #0d6efd;
+    border-radius: 4px;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.menu-link:hover {
+    background-color: #e6f0ff;
+}
+
+.menu-link.active {
+    background-color: #0c4ba9;
+    color: white;
+    font-weight: 600;
+}
+
+.right {
+    flex: 1;
+    padding: 40px;
+    background: rgba(7, 55, 125, 0.25);
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+}

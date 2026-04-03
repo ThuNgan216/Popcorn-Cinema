@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/trangchu.css">
+    <script src="../JS/bootstrap.bundle.min.js" defer></script>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary pb-0 sticky-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#logo"><img src="../IMG/logo-removebg-preview.png" id="logo"
+                            alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>TP.HCM</option>
+                        <option value="1">Hà Nội</option>
+                        <option value="2">Đồng Tháp</option>
+                        <option value="3">Đà Nẵng</option>
+                    </select>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav me-auto">
+
+                            <a class="nav-link active text-light" aria-current="page" href="../HTML/Home.html">Trang
+                                chủ</a>
+                            <a class="nav-link text-light ms-5" href="../HTML/LichChieu.html">Phim</a>
+                            <a class="nav-link text-light ms-5" href="../HTML/Rap.html">Rạp</a>
+                            <a class="nav-link active text-primary ms-4 fw-bold" href="../HTML/Offers.html">Khuyến
+                                mãi</a>
+
+                        </div>
+                        <div class="navbar-nav mt-2 mt-lg-0">
+                            <a class="nav-link text-light" aria-disabled="true" id="log"
+                                href="../HTML/Login.html">&#128100 Đăngnhập/Đăngký</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <hr>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="../IMG/phim1.jpg" class="d-block w-50 mx-auto d-block" alt="...">
+                        <!-- <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div> -->
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="../IMG/phim2.jpg" class="d-block w-50 mx-auto d-block" alt="...">
+                        <!-- <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div> -->
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../IMG/phim3.jpg" class="d-block w-50 mx-auto d-block" alt="...">
+                        <!-- <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div> -->
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </header>
+
+        <hr>
+        <section>
+            <div id="menuphim">
+                <a href="">PHIM SẮP CHIẾU</a>🍿
+                <a href="">PHIM ĐANG CHIẾU</a>🍿
+                <a href="">SUẤT CHIẾU ĐẶC BIỆT</a>
+            </div>
+            <div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <td scope="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="../IMG/poster1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Running Man 3</h5>
+                                        <p class="card-text">Thể loại: Truyền hình thực tế <br>
+                                            Thời lượng: 113 phút</p>
+                                        <a href="#" class="btn btn-primary">Mua vé</a>
+                                        <span class="badge bg-warning text-dark">HOT</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td scope="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="../IMG/poster2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Thiên đường máu</h5>
+                                        <p class="card-text">Thể loại: Hành động <br>
+                                            Thời lượng: 113 phút</p>
+                                        <a href="#" class="btn btn-primary">Mua vé</a>
+                                        <span class="badge bg-warning text-dark">HOT</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td scope="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="../IMG/poster3.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Trạng Quỳnh</h5>
+                                        <p class="card-text">Thể loại: Hài/Lãng Mạng <br>
+                                            Thời lượng: 94 phút</p>
+                                        <a href="#" class="btn btn-primary">Mua vé</a>
+                                    </div>
+                                </div>
+                            </td>
+                            <td scope="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="../IMG/poster4.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Thám tử lừng danh Conan</h5>
+                                        <p class="card-text">Thể loại: Hành động/Hoạt hình <br>
+                                            Thời lượng: 109 phút</p>
+                                        <a href="#" class="btn btn-primary">Mua vé</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="../IMG/poster5.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Tiểu Yêu Quái Núi Lãng Lãng</h5>
+                                        <p class="card-text">Thể loại: Hoạt hình <br>
+                                            Thời lượng: 118 phút</p>
+                                        <a href="#" class="btn btn-primary">Mua vé</a>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="../IMG/poster6.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nhà Bà Nữ</h5>
+                                        <p class="card-text">Thể loại: Hài/Chính Kịch <br>
+                                            Thời lượng: 102 phút</p>
+                                        <a href="#" class="btn btn-primary">Mua vé</a>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="../IMG/poster7.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Xứ Sở Các Nguyên Tố</h5>
+                                        <p class="card-text">Thể loại: Hài/Hoạt Hình <br>
+                                            Thời lượng: 109 phút</p>
+                                        <a href="#" class="btn btn-primary">Mua vé</a>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="../IMG/poster8.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Diễm ơi!</h5>
+                                        <p class="card-text">Thể loại: Phim hài <br>
+                                            Thời lượng: 125 phút</p>
+                                        <a href="#" class="btn btn-primary" id="ve">Mua vé</a>
+                                        <span class="badge bg-warning text-dark">HOT</span>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <hr>
+        <footer class="footer">
+            <div class="footer-container">
+
+                <div class="footer-box">
+                    <a href="../HTML/Home.html"><img src="../IMG/logo-removebg-preview.png" alt="" id="logo_ft"></a>
+                    <p>
+                        Hệ thống đặt vé xem phim trực tuyến Top 1 thế giới! &#9733;
+                    </p>
+                </div>
+                <tr>
+
+                    <div class="footer-box">
+                        <h4>POPCORN CINEMA</h4>
+                        <ul>
+                            <li><a href="../HTML/Home.html">Trang chủ</a></li>
+                            <li><a href="../HTML/About.html">Giới thiệu</a></li>
+                            <li><a href="../HTML/Careers.html">Tuyển dụng</a></li>
+                            <li><a href="../HTML/Offers.html">Khuyến mãi</a></li>
+                            <li><a href="../HTML/AdvertisingContact.html">Liên hệ quảng cáo</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-box">
+                        <h4>Điều khoản sử dụng</h4>
+                        <ul>
+                            <li><a href="../HTML/TicketBookingGuide.html">Hướng dẫn đặt vé</a></li>
+                            <li><a href="../HTML/FAQ.html">Câu hỏi thường gặp</a></li>
+                            <li><a href="../HTML/TermsOfService.html">Điều khoản sử dụng</a></li>
+                            <li><a href="../HTML/PrivacyPolicy.html">Chính sách bảo mật</a></li>
+                            <li><a href="../HTML/CinemaRegulations.html">Những quy định tại rạp</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-box">
+                        <h4>Liên hệ</h4>
+                        <p>&#128204 TP. Hồ Chí Minh</p>
+                        <p>&#128241 0123456789</p>
+                        <p>📧<a href="mailto:nhom10siuvip@gmail.com" id="mail"> nhom10siuvip@gmail.com</a></p>
+                        <a href=""><img src="../IMG/logofb-removebg-preview.png" alt=""></a>
+                        <a href=""><img src="../IMG/logoig.png" alt=""></a>
+                        <a href=""><img src="../IMG/logoytb.png" alt=""></a>
+                        <a href=""><img src="../IMG/logott-removebg-preview.png" alt=""></a>
+                    </div>
+                </tr>
+            </div>
+
+            <div class="footer-bottom">
+                © 2026 POPCORN CINEMA | Thiết kế bởi Nhóm 10
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/trangchu.css">
+    <script src="../CSS/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../CSS/Log.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary pb-0 sticky-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#logo"><img src="../IMG/logo-removebg-preview.png" id="logo"
+                            alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>TP.HCM</option>
+                        <option value="1">Hà Nội</option>
+                        <option value="2">Đồng Tháp</option>
+                        <option value="3">Đà Nẵng</option>
+                    </select>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav me-auto">
+
+                            <a class="nav-link active text-light" aria-current="page" href="../HTML/Home.html">Trang
+                                chủ</a>
+                            <a class="nav-link text-light ms-5" href="../HTML/LichChieu.html">Phim</a>
+                            <a class="nav-link text-light ms-5" href="../HTML/Rap.html">Rạp</a>
+                            <a class="nav-link active text-primary ms-4 fw-bold" href="../HTML/Offers.html">Khuyến
+                                mãi</a>
+
+                        </div>
+                        <div class="navbar-nav mt-2 mt-lg-0">
+                            <a class="nav-link text-light" aria-disabled="true" id="log"
+                                href="../HTML/Login.html">&#128100 Đăngnhập/Đăngký</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <hr>
+        <section>
+            <div class="login-container">
+                <!-- Tabs -->
+                <div class="tabs">
+                    <a href="#" id="tab-login" class="active">ĐĂNG NHẬP</a>
+                    <a href="#" id="tab-register">ĐĂNG KÝ</a>
+                </div>
+
+                <!-- Nội dung -->
+                <!-- Đăng ký -->
+                <div id="login-form" class="form-content">
+                    <form>
+                        <label>Email</label>
+                        <input type="email" placeholder="Nhập email">
+
+                        <label>Mật khẩu</label>
+                        <input type="password" placeholder="Nhập mật khẩu">
+
+                        <button type="submit" class="btn">Đăng nhập</button>
+                        <button type="button" class="btn facebook"><a href="https://www.facebook.com/login/">Đăng nhập
+                                bằng Facebook</a></button>
+
+                        <div class="forgot">
+                            <a href="#">Quên mật khẩu?</a>
+                        </div>
+                    </form>
+                </div>
+                <!-- Đăng nhập -->
+                <div id="register-form" class="form-content hidden">
+                    <form>
+                        <table>
+                            <tr>
+                                <td>
+                                    <label>Họ tên</label>
+                                    <input type="text" placeholder="Nhập họ tên">
+                                </td>
+                                <td>
+                                    <label>Email</label>
+                                    <input type="email" placeholder="Nhập email">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>Mật khẩu</label>
+                                    <input type="password" placeholder="Nhập mật khẩu">
+                                </td>
+                                <td>
+                                    <label>Xác nhận lại mật khẩu Email</label>
+                                    <input type="password" placeholder="Nhập mật khẩu Email">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>Ngày sinh</label>
+                                    <input type="date">
+                                </td>
+                                <td>
+                                    <label>Giới tính</label>
+                                    <select>
+                                        <option>Nam</option>
+                                        <option>Nữ</option>
+                                        <option>Khác</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="policy">
+                            <input type="checkbox"> Tôi cam kết tuân theo chính sách bảo mật và điều khoản sử dụng.
+                        </div>
+
+                        <button type="submit" class="btn">Đăng ký</button>
+                        <button type="button" class="btn facebook"><a href="https://www.facebook.com/login/">Tiếp
+                                tục với
+                                Facebook</a></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <footer class="footer">
+            <div class="footer-container">
+
+                <div class="footer-box">
+                    <a href="../HTML/Home.html"><img src="../IMG/logo-removebg-preview.png" alt="" id="logo_ft"></a>
+                    <p>
+                        Hệ thống đặt vé xem phim trực tuyến Top 1 thế giới! &#9733;
+                    </p>
+                </div>
+                <tr>
+
+                    <div class="footer-box">
+                        <h4>POPCORN CINEMA</h4>
+                        <ul>
+                            <li><a href="../HTML/Home.html">Trang chủ</a></li>
+                            <li><a href="../HTML/About.html">Giới thiệu</a></li>
+                            <li><a href="../HTML/Careers.html">Tuyển dụng</a></li>
+                            <li><a href="../HTML/Offers.html">Khuyến mãi</a></li>
+                            <li><a href="../HTML/AdvertisingContact.html">Liên hệ quảng cáo</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-box">
+                        <h4>Điều khoản sử dụng</h4>
+                        <ul>
+                            <li><a href="../HTML/TicketBookingGuide.html">Hướng dẫn đặt vé</a></li>
+                            <li><a href="../HTML/FAQ.html">Câu hỏi thường gặp</a></li>
+                            <li><a href="../HTML/TermsOfService.html">Điều khoản sử dụng</a></li>
+                            <li><a href="../HTML/PrivacyPolicy.html">Chính sách bảo mật</a></li>
+                            <li><a href="../HTML/CinemaRegulations.html">Những quy định tại rạp</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-box">
+                        <h4>Liên hệ</h4>
+                        <p>&#128204 TP. Hồ Chí Minh</p>
+                        <p>&#128241 0123456789</p>
+                        <p>📧<a href="mailto:nhom10siuvip@gmail.com" id="mail"> nhom10siuvip@gmail.com</a></p>
+                        <a href=""><img src="../IMG/logofb-removebg-preview.png" alt=""></a>
+                        <a href=""><img src="../IMG/logoig.png" alt=""></a>
+                        <a href=""><img src="../IMG/logoytb.png" alt=""></a>
+                        <a href=""><img src="../IMG/logott-removebg-preview.png" alt=""></a>
+                    </div>
+                </tr>
+            </div>
+
+            <div class="footer-bottom">
+                © 2026 POPCORN CINEMA | Thiết kế bởi Nhóm 10
+            </div>
+        </footer>
+    </div>
+    <script src="../JS/Log.js"></script>
+</body>
+
+</html>

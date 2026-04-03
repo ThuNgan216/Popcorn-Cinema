@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.screen {
+    background: #ccc;
+    padding: 10px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.seats {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    gap: 8px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.seat {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.regular {
+    background: green;
+}
+
+.vip {
+    background: red;
+}
+
+.sweetbox {
+    background: pink;
+}
+
+.selected {
+    border: 3px solid black;
+}
+
+#summary {
+    margin-top: 20px;
+    font-size: 18px;
+}
