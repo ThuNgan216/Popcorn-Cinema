@@ -17,12 +17,12 @@ body {
 
 .login-container {
     background: #fff;
-    width: 500px;
+    width: min(500px, 100%);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     justify-content: center;
-    margin-left: 500px;
+    margin: 0 auto;
 }
 
 .tabs {
@@ -121,4 +121,34 @@ section {
     width: 100%;
     height: auto;
     padding-bottom: 50px;
+}
+
+@media (max-width: 767.98px) {
+    body {
+        display: block;
+        padding: 0 12px 32px;
+        align-items: stretch;
+    }
+
+    .login-container {
+        padding: 16px;
+    }
+
+    table,
+    tbody,
+    tr,
+    td {
+        display: block;
+        width: 100%;
+    }
+
+    td {
+        padding: 8px 0;
+        height: auto;
+    }
+
+    .tabs a,
+    .btn {
+        font-size: 14px;
+    }
 }

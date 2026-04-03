@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Khuyến mãi</title>
     <link rel="stylesheet" href="../CSS/bootstrap.min.css">
-    <script src="../CSS/bootstrap.bundle.min.js"></script>
+    <script src="../JS/bootstrap.bundle.min.js" defer></script>
     <link rel="stylesheet" href="../CSS/trangchu.css">
     <link rel="stylesheet" href="../CSS/Offers.css">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
 </head>
 
 <body>
@@ -33,14 +31,11 @@
                     </select>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav me-auto">
-
                             <a class="nav-link text-light ms-5" aria-current="page" href="../HTML/Home.html">Trang
                                 chủ</a>
                             <a class="nav-link text-light ms-5" href="../HTML/LichChieu.html">Phim</a>
                             <a class="nav-link text-light ms-5" href="../HTML/Rap.html">Rạp</a>
-                            <a class="nav-link text-light ms-5" href="../HTML/Offers.html">Khuyến
-                                mãi</a>
-
+                            <a class="nav-link text-light ms-5" href="../HTML/Offers.html">Khuyến mãi</a>
                         </div>
                         <div class="navbar-nav mt-2 mt-lg-0">
                             <a class="nav-link text-light" aria-disabled="true" id="log"
@@ -49,50 +44,6 @@
                     </div>
                 </div>
             </nav>
-            <hr>
-            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="../IMG/phim1.jpg" class="d-block w-50 mx-auto d-block" alt="...">
-                        <!-- <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                        </div> -->
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="../IMG/phim2.jpg" class="d-block w-50 mx-auto d-block" alt="...">
-                        <!-- <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div> -->
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../IMG/phim3.jpg" class="d-block w-50 mx-auto d-block" alt="...">
-                        <!-- <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div> -->
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
         </header>
         <hr class="m-0">
 
@@ -102,78 +53,76 @@
                 <button class="btn btn-xemthem">Xem thêm</button>
             </div>
 
-            <div class="row mb-4">
-                <div class="col-md-6 mb-3">
-                    <div class="card promo-card h-100 ms-3">
-                        <img src="../IMG/offers1.png" alt="Bính Ngọ Phát Tài" class="h-100"
-                            style="object-fit: cover; border-radius: 15px;">
+            <div class="row g-4 mb-4 promo-hero">
+                <div class="col-lg-6">
+                    <div class="card promo-card promo-card-feature">
+                        <img src="../IMG/offers1.png" alt="Bính Ngọ Phát Tài">
                     </div>
                 </div>
-                <div class="col-md-3 mb-3">
-                    <div class="card promo-card">
-                        <img src="../IMG/offers2.png" style="border-radius: 8px;" alt="Lộc Nhà Mùi Phở">
-                        <div class="card-body">
-                            <h5 class=" card-title">LỘC NHÀ "MÙI PHỞ" - ĐÓN NĂM RỰC RỠ</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 mb-3">
-                    <div class="card promo-card">
-                        <img src="../IMG/offers3.png" style="border-radius: 8px;" alt="Săn Chứng Nhận">
-                        <div class="card-body">
-                            <h5 class="card-title">SĂN CHỨNG NHẬN - CÓ DANH PHẬN</h5>
+                <div class="col-lg-6">
+                    <div class="promo-hero-right">
+                        <div class="row row-cols-1 row-cols-sm-2 g-4">
+                            <div class="col">
+                                <div class="card promo-card promo-card-small">
+                                    <img src="../IMG/offers2.png" alt="Lộc Nhà Mùi Phở">
+                                    <div class="card-body">
+                                        <h5 class="card-title">LỘC NHÀ "MÙI PHỞ" - ĐÓN NĂM RỰC RỠ</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card promo-card promo-card-small">
+                                    <img src="../IMG/offers3.png" alt="Săn Chứng Nhận">
+                                    <div class="card-body">
+                                        <h5 class="card-title">SĂN CHỨNG NHẬN - CÓ DANH PHẬN</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card promo-card promo-card-small">
+                                    <img src="../IMG/offers4.png" alt="Tuyển Dụng">
+                                    <div class="card-body">
+                                        <h5 class="card-title">TUYỂN DỤNG PART-TIME TOÀN HỆ THỐNG</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card promo-card promo-card-small">
+                                    <img src="../IMG/offers5.png" alt="Ưu Đãi Đặc Quyền">
+                                    <div class="card-body">
+                                        <h5 class="card-title">ƯU ĐÃI ĐẶC QUYỀN CHO KHÁCH HÀNG THÀNH VIÊN</h5>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="position-relative">
-                <!-- <button class="arrow-btn position-absolute top-50 start-0 translate-middle-y"
-                    style="left: -15x !important; z-index: 10;">&lt;</button> -->
-
-                <div class="row">
-                    <div class="col-md-3 mb-3">
-                        <div class="card promo-card">
-                            <img src="../IMG/offers4.png" style="border-radius: 8px;" alt="Tuyển Dụng">
+                <div class="row g-4 promo-grid">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card promo-card promo-card-regular">
+                            <img src="../IMG/offers6.png" alt="Mì Ly Thơm Ngon">
                             <div class="card-body">
-                                <h5 class="card-title">TUYỂN DỤNG PART-TIME TOÀN HỆ THỐNG</h5>
+                                <h5 class="card-title">MÌ LY THƠM NGON, XEM PHIM THÊM CUỐN</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 mb-3 align-items-center">
-                        <div class="card promo-card">
-                            <img src="../IMG/offers5.png" style="border-radius: 8px;" alt="Ưu Đãi Đặc Quyền">
-                            <div class="card-body">
-                                <h5 class="card-title">ƯU ĐÃI ĐẶC QUYỀN CHO KHÁCH HÀNG THÀNH VIÊN</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-3 align-items-center">
-                        <div class="card promo-card">
-                            <img src="../IMG/offers6.png" style="border-radius: 8px;" alt="Mỳ Ly Thơm Ngon">
-                            <div class="card-body">
-                                <h5 class="card-title">MỲ LY THƠM NGON, XEM PHIM THÊM CUỐN</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                        <div class="card promo-card">
-                            <img src="../IMG/offers7.png" style="border-radius: 8px;" alt="Đặt Vé Momo">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card promo-card promo-card-regular">
+                            <img src="../IMG/offers7.png" alt="Đặt Vé Momo">
                             <div class="card-body">
                                 <h5 class="card-title">ĐẶT VÉ POPCORN CINEMA, MOMO LIỀN!</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- <button class="arrow-btn position-absolute top-50 end-0 translate-middle-y"
-                    style="right: -20px !important; z-index: 10;">&gt;</button> -->
             </div>
         </section>
         <hr>
         <footer class="footer">
             <div class="footer-container">
-
                 <div class="footer-box">
                     <a href="../HTML/Home.html"><img src="../IMG/logo-removebg-preview.png" alt="" id="logo_ft"></a>
                     <p>
@@ -181,7 +130,6 @@
                     </p>
                 </div>
                 <tr>
-
                     <div class="footer-box">
                         <h4>POPCORN CINEMA</h4>
                         <ul>

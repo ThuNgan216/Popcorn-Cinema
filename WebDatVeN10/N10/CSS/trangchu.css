@@ -1,3 +1,22 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #020617;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 #container {
     width: 100%;
     padding: 0;
@@ -6,6 +25,40 @@
     height: auto;
 }
 
+.navbar.bg-body-tertiary {
+    background-color: #020617 !important;
+    padding-top: 0;
+}
+
+.navbar>.container-fluid {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px 24px;
+    position: relative;
+}
+
+.navbar-collapse {
+    align-items: center;
+    gap: 16px;
+}
+
+.navbar-collapse>.navbar-nav.me-auto {
+    flex: 1 1 auto;
+    justify-content: center;
+    margin-right: 0 !important;
+}
+
+.navbar-collapse>.navbar-nav.mt-2.mt-lg-0 {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-link {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    white-space: nowrap;
+    font-size: 1.1rem;
+}
 
 #logo {
     width: 100px;
@@ -19,8 +72,9 @@
 
 .navbar-nav {
     text-align: center;
-    margin-right: 50px;
-    margin-left: 80px;
+    margin: 0;
+    gap: 32px;
+    align-items: center;
 }
 
 
@@ -29,11 +83,15 @@
     background-color: #1E293B;
     color: #F8FAFC;
     width: fit-content;
+    padding: 10px 14px;
+    white-space: nowrap;
 }
 
 
 .form-select {
-    width: 300px;
+    width: min(300px, 100%);
+    min-width: 140px;
+    flex: 0 1 220px;
     background-color: #1E293B;
     color: white;
     border: 1px solid #334155;
@@ -60,11 +118,24 @@
     background-color: #020617;
 }
 
+.carousel-item img {
+    width: min(50%, 720px) !important;
+    max-width: 100%;
+}
 
 .table {
-    width: 70%;
+    width: min(1200px, calc(100% - 24px));
     margin: auto;
     margin-top: 20px;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 16px 20px;
+}
+
+.table> :not(caption)>*>* {
+    background-color: transparent;
+    box-shadow: none;
+    border-bottom-width: 0;
 }
 
 
@@ -104,10 +175,17 @@ span {
 
 
 td {
-    width: 200px;
-    height: 300px;
+    width: auto;
+    height: auto;
     margin: 0;
     padding: 0;
+    vertical-align: top;
+}
+
+.table .card {
+    width: 100% !important;
+    max-width: 100%;
+    height: 100%;
 }
 
 .card-title {
@@ -193,4 +271,196 @@ hr {
 
 .footer-box img:hover {
     transform: scale(0.9);
+}
+
+@media (min-width: 992px) {
+    .navbar-collapse {
+        flex: 1 1 auto;
+    }
+
+    .navbar-collapse>.navbar-nav.me-auto {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        justify-content: center;
+        gap: 56px;
+        width: max-content;
+        z-index: 1;
+    }
+
+    .navbar-collapse>.navbar-nav.mt-2.mt-lg-0 {
+        position: relative;
+        z-index: 2;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar>.container-fluid {
+        padding: 12px 16px;
+        gap: 12px;
+    }
+
+    #logo {
+        width: 84px;
+    }
+
+    .form-select {
+        order: 3;
+        flex: 1 1 100%;
+        width: 100%;
+    }
+
+    .navbar-toggler {
+        margin-left: auto;
+    }
+
+    .navbar-collapse {
+        flex-basis: 100%;
+        margin-top: 12px;
+    }
+
+    .navbar-collapse>.navbar-nav.me-auto,
+    .navbar-collapse>.navbar-nav.mt-2.mt-lg-0 {
+        margin-left: 0;
+        margin-right: 0 !important;
+    }
+
+    .navbar-collapse .navbar-nav {
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .navbar-nav .nav-link,
+    #log {
+        width: 100%;
+        text-align: left;
+    }
+
+    .navbar-nav.mt-2.mt-lg-0 {
+        margin-top: 8px !important;
+    }
+
+    #menuphim {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px 18px;
+        padding: 0 12px;
+    }
+
+    #menuphim a {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .carousel-item img {
+        width: min(78vw, 420px) !important;
+    }
+
+    .table {
+        width: calc(100% - 24px);
+        display: block;
+        border-spacing: 0;
+    }
+
+    .table thead,
+    .table tbody {
+        display: block;
+    }
+
+    .table tr {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+
+    .table td {
+        display: block;
+        min-width: 0;
+    }
+
+    .card-img-top {
+        height: 260px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .navbar>.container-fluid {
+        padding: 10px 12px;
+    }
+
+    #logo {
+        width: 72px;
+    }
+
+    .form-select {
+        min-width: 0;
+        font-size: 14px;
+    }
+
+    .navbar-nav {
+        gap: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+    }
+
+    #log {
+        font-size: 14px;
+        padding: 9px 12px;
+    }
+
+    #menuphim a {
+        font-size: 16px;
+    }
+
+    #menuphim {
+        gap: 10px 12px;
+    }
+
+    .carousel-item img {
+        width: calc(100% - 48px) !important;
+    }
+
+    .table {
+        width: calc(100% - 16px);
+    }
+
+    .table tr {
+        grid-template-columns: 1fr;
+        gap: 14px;
+        margin-bottom: 14px;
+    }
+
+    .card-img-top {
+        height: clamp(220px, 72vw, 320px);
+    }
+
+    .card-body {
+        padding: 14px;
+    }
+
+    .card-title {
+        min-height: 0;
+    }
+
+    hr {
+        height: 8px;
+    }
+
+    .footer-container {
+        width: calc(100% - 24px);
+        gap: 20px;
+    }
+
+    #logo_ft {
+        width: 120px;
+        height: auto;
+    }
+
+    .footer-box img {
+        margin-right: 12px;
+    }
 }
