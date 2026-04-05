@@ -58,6 +58,13 @@ img {
     padding-right: 0 !important;
     white-space: nowrap;
     font-size: 1.1rem;
+    color: #F8FAFC !important;
+    transition: color 0.2s ease;
+}
+
+.navbar-collapse > .navbar-nav.me-auto > .nav-link.is-active {
+    color: #3B82F6 !important;
+    font-weight: 700;
 }
 
 #logo {
@@ -85,6 +92,11 @@ img {
     width: fit-content;
     padding: 10px 14px;
     white-space: nowrap;
+}
+
+#log.is-active {
+    color: #60A5FA !important;
+    border: 1px solid #3B82F6;
 }
 
 
