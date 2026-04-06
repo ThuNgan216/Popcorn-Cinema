@@ -13,39 +13,25 @@ document.addEventListener("DOMContentLoaded", function () {
         hcm: {
             label: "TP.HCM",
             cinemas: [
-                "Beta Cinemas Quang Trung",
-                "CGV Aeon Tan Phu",
-                "Galaxy Nguyen Du",
-                "Lotte Go Vap"
+                "Popcorn Cinema"
             ]
         },
         hanoi: {
             label: "Ha Noi",
             cinemas: [
-                "Beta Thanh Xuan",
-                "Beta My Dinh",
-                "Beta Dan Phuong",
-                "Beta Giai Phong",
-                "Beta Xuan Thuy",
-                "Beta Tay Son"
+                "Popcorn Cinema"
             ]
         },
         dongthap: {
             label: "Dong Thap",
             cinemas: [
-                "Cao Lanh Center",
-                "Sa Dec Riverside",
-                "Hong Ngu Cinema",
-                "Lai Vung Plaza"
+                "Popcorn Cinema"
             ]
         },
         danang: {
             label: "Da Nang",
             cinemas: [
-                "CGV Vincom Da Nang",
-                "Lotte Da Nang",
-                "Galaxy Da Nang",
-                "Starlight Nguyen Kim"
+                "Popcorn Cinema"
             ]
         }
     };
@@ -64,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
     menu.className = "location-menu";
     menu.innerHTML = [
         '<button class="location-trigger" type="button" aria-expanded="false">',
-        '  <span class="location-trigger-label">Chọn thành phố</span>',
+        '  <span class="location-trigger-label">Chọn cụm rạp</span>',
         '  <span class="location-trigger-value"></span>',
         "</button>",
         '<div class="location-dropdown" role="menu">',
