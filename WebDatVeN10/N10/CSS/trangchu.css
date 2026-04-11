@@ -10,6 +10,7 @@ body {
     padding: 0;
     background-color: #020617;
     overflow-x: hidden;
+    /* ẩn thanh cuộn ngang nếu bị tràn, không cho phép cuộn ngang */
 }
 
 img {
@@ -34,6 +35,7 @@ img {
     display: flex;
     align-items: center;
     gap: 16px;
+    /* tạo khoảng cách giữa các phần tử con */
     padding: 12px 24px;
     position: relative;
 }
@@ -57,12 +59,13 @@ img {
     padding-left: 0 !important;
     padding-right: 0 !important;
     white-space: nowrap;
+    /* không cho xuống dòng, ndung chỉ nằm trên 1 dòng  */
     font-size: 1.1rem;
     color: #F8FAFC !important;
     transition: color 0.2s ease;
 }
 
-.navbar-collapse > .navbar-nav.me-auto > .nav-link.is-active {
+.navbar-collapse>.navbar-nav.me-auto>.nav-link.is-active {
     color: #3B82F6 !important;
     font-weight: 700;
 }
@@ -132,6 +135,7 @@ img {
     text-align: left;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
 }
+
 .location-trigger::after {
     content: "";
     position: absolute;
@@ -207,6 +211,7 @@ img {
     width: 100%;
     border: 0;
     background: transparent;
+    /* nền trong suốt */
     color: #E2E8F0;
     text-align: left;
     border-radius: 12px;
@@ -312,12 +317,15 @@ img {
     margin: auto;
     margin-top: 20px;
     table-layout: fixed;
+    /* tính độ rộng từng ô */
     border-collapse: separate;
+    /* viền của bảng tách nhau ra */
     border-spacing: 16px 20px;
 }
 
 .table> :not(caption)>*>* {
     background-color: transparent;
+    /* nền trong suốt */
     box-shadow: none;
     border-bottom-width: 0;
 }
@@ -373,9 +381,7 @@ td {
 
 .card-title {
     overflow: hidden;
-    display: -webkit-box;
-    /* -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical; */
+    display: flex;
     min-height: 48px;
 }
 
